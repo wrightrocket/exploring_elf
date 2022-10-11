@@ -4,6 +4,17 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+        
+        {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "reading_elf.sh",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/reading_elf.sh",
+            "args": []
+        },
+    
         {
             "name": "(gdb) Launch",
             "type": "cppdbg",
